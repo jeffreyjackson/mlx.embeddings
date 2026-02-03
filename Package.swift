@@ -15,7 +15,7 @@ let package = Package(
     .package(
         url: "https://github.com/huggingface/swift-transformers", .upToNextMinor(from: "0.1.21")
     ),
-    .package(url: "https://github.com/ml-explore/mlx-swift-examples/", branch: "main"),
+    .package(url: "https://github.com/ml-explore/mlx-swift-examples/", revision: "8e41311a3c17e902441cfcaa46629244c9758afd"),
 
   ],
   targets: [
